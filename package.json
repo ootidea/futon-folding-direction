@@ -1,0 +1,11 @@
+{
+  "name": "futon-folding-direction",
+  "description": "",
+  "version": "0.1.0",
+  "author": "ootidea",
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {}
+}
