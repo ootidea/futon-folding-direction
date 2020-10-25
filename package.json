@@ -5,11 +5,13 @@
   "author": "ootidea",
   "dependencies": {},
   "devDependencies": {
+    "esbuild": "^0.11.6",
     "prettier": "^2.2.1"
   },
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
+    "esbuild": "node esbuild.js",
     "format": "prettier --write \"src/**/*.{ts,tsx}\""
   }
 }
