@@ -4,8 +4,12 @@
   "version": "0.1.0",
   "author": "ootidea",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
   "license": "Apache-2.0",
   "private": true,
-  "scripts": {}
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{ts,tsx}\""
+  }
 }
