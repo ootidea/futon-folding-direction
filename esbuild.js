@@ -1,7 +1,9 @@
 const {build} = require('esbuild')
 
 build({
-  entryPoints: [],
+  entryPoints: [
+    './src/entryPoint.ts',
+  ],
   outdir: './dist',
   bundle: true,
   sourcemap: 'inline',
