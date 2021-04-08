@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "author": "ootidea",
   "dependencies": {
-    "lit-html": "^1.3.0"
+    "lit-html": "^1.3.0",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "cpx": "^1.5.0",
