@@ -16,7 +16,7 @@
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
-    "copy": "cpx \"static/**\" dist",
+    "copy": "cpx \"static/**\" docs",
     "build": "run-p esbuild typeCheck copy",
     "esbuild": "node esbuild.js",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
