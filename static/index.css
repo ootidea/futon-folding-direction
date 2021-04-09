@@ -26,5 +26,5 @@ body {
 .flip {
   transform: scale(-1, 1);
 
-  background: hsl(330, 50%, 50%);
+  filter: hue-rotate(180deg);
 }
