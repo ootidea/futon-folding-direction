@@ -3,7 +3,7 @@ import moment from 'moment'
 
 const spaRoot = document.querySelector('.spa-root')
 
-const diff = moment().diff(moment.unix(0), 'days')
+const diff = moment().diff(moment('2021-04-01', 'YYYY-MM-DD'), 'days')
 
 if (diff % 2 === 0) {
   render(html`<div class="arrow"></div>`, spaRoot!)
