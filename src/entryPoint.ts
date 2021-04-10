@@ -15,8 +15,8 @@ function update() {
   const diff = moment().diff(moment('2021-04-01', 'YYYY-MM-DD'), 'days')
 
   if (diff % 2 === 0) {
-    render(html`<div class="arrow"></div>`, spaRoot!)
+    render(html`<img src="./front-arrow.svg" alt="" />`, spaRoot!)
   } else {
-    render(html`<div class="arrow flip"></div>`, spaRoot!)
+    render(html`<img src="./back-arrow.svg" alt="" />`, spaRoot!)
   }
 }
