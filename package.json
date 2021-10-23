@@ -1,0 +1,26 @@
+{
+  "name": "futon-folding-direction",
+  "description": "",
+  "version": "0.1.0",
+  "author": "ootidea",
+  "dependencies": {
+    "lit-html": "^1.3.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "esbuild": "^0.11.6",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "copy": "cpx \"static/**\" docs",
+    "build": "run-p esbuild typeCheck copy",
+    "esbuild": "node esbuild.js",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "typeCheck": "tsc --noEmit"
+  }
+}
