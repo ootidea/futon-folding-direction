@@ -22,5 +22,8 @@
     "esbuild": "node esbuild.js",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "typeCheck": "tsc --noEmit"
+  },
+  "volta": {
+    "node": "16.13.2"
   }
 }
